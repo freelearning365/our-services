@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://www.freelearning365.com/favicon.ico' rel='icon' type='image/x-icon'/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="FreeLearning365.com presents the ultimate Software List for Demo - Explore powerful Manufacturing ERP, Sales Inventory & Accounting ERP, Distributor Management System, HR Solutions, CRM, PowerBI Integration, Data Analytics, AI Integration, Custom Software Development, ETL, Data Warehousing, and expert Training in PowerBI, SQL Server, Python, C#. Transform your business with cutting-edge tools and professional services.">
@@ -968,6 +969,171 @@
         }
     }
 </style>
+<style>
+    /* ==========================
+   MODAL ANIMATION
+========================== */
+
+    .report-modal .modal-dialog {
+        transform: scale(.92);
+        transition: all .35s ease;
+    }
+
+    .report-modal.show .modal-dialog {
+        transform: scale(1);
+    }
+
+    /* ==========================
+   MODAL CONTENT
+========================== */
+
+    .report-modal .modal-content {
+        border: none;
+        border-radius: 0;
+        overflow: hidden;
+        background: #f8fafc;
+    }
+
+    /* ==========================
+   HEADER
+========================== */
+
+    .report-modal .modal-header {
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+
+        background: linear-gradient(135deg,
+                #0d6efd,
+                #6610f2);
+
+        color: white;
+        border: none;
+        padding: 18px 25px;
+
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+    }
+
+    /* ==========================
+   BODY
+========================== */
+
+    .report-modal .modal-body {
+        background: #eef2f7;
+        padding: 20px;
+        overflow-y: auto;
+    }
+
+    /* ==========================
+   REPORT CONTAINER
+========================== */
+
+    .report-container {
+        background: white;
+        border-radius: 16px;
+
+        padding: 25px;
+
+        box-shadow:
+            0 10px 30px rgba(0, 0, 0, .08);
+
+        min-height: calc(100vh - 130px);
+
+        animation: fadeInUp .4s ease;
+    }
+
+    /* ==========================
+   SCROLLBAR
+========================== */
+
+    .report-modal ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .report-modal ::-webkit-scrollbar-track {
+        background: #e5e7eb;
+    }
+
+    .report-modal ::-webkit-scrollbar-thumb {
+        background: #4f46e5;
+        border-radius: 20px;
+    }
+
+    /* ==========================
+   TABLE STYLING
+========================== */
+
+    .report-container table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .report-container table th {
+        background: #0d6efd;
+        color: white;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .report-container table td {
+        padding: 8px;
+        border: 1px solid #dee2e6;
+    }
+
+    .report-container table tr:nth-child(even) {
+        background: #f8fafc;
+    }
+
+    .report-container table tr:hover {
+        background: #eaf2ff;
+    }
+
+    /* ==========================
+   ANIMATION
+========================== */
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* ==========================
+   MOBILE
+========================== */
+
+    @media(max-width:768px) {
+
+        .report-modal .modal-header {
+            padding: 12px;
+        }
+
+        .report-modal .modal-title {
+            font-size: 18px;
+        }
+
+        .report-container {
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        .report-container table {
+            font-size: 12px;
+        }
+
+        .report-modal .modal-body {
+            padding: 8px;
+        }
+    }
+</style>
 </head>
 <body>
 
@@ -982,7 +1148,7 @@
     <!-- ========== NAVBAR ========== -->
     <nav class="navbar navbar-expand-lg" id="mainNavbar">
         <div class="container">
-            <a class="navbar-brand" href="#" target="_blank">
+            <a class="navbar-brand" href="#">
                 <span class="brand-icon">⚡</span>
                 <span>FreeLearning365</span>
             </a>
@@ -1029,6 +1195,60 @@
                         <a href="#software" class="btn-slide-primary">🔍 View Software <i class="fas fa-arrow-right"></i></a>
                         <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-slide-outline">💬 Talk to Expert <i class="fas fa-comment-dots"></i></a>
                     </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide-bg-4">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="slide-badge badge-slide-3">💎 Multi‑Company HR Powerhouse</span>
+                    <h1>
+                        Future‑Ready <span class="highlight-teal">HR, Payroll & People Operations</span> Command Center
+                    </h1>
+                    <p>
+                        Unify your entire global workforce across unlimited legal entities.
+                        Automate core HR, payroll, attendance, compliance and performance –
+                        slash operational costs by up to <strong>60%</strong> and unlock
+                        <strong>game‑changing ROI from day one</strong>.
+                        The most affordable, feature‑rich SaaS that scales with you.
+                    </p>
+                    <div class="slide-btns">
+                        <a href="#software" class="btn-slide-primary">
+                            🔥 Explore HR Suite <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-slide-outline">
+                            💬 Claim Free Strategy Call <i class="fas fa-comment-dots"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-bg-1">
+                <div class="slide-overlay"></div>
+            
+                <div class="slide-content">
+            
+                    <span class="slide-badge badge-slide-1">
+                        🛠️ After Sales Service Management
+                    </span>
+            
+                    <h1>
+                        Next-Gen <span class="highlight-pink">Customer Service Managment</span>  
+                    </h1>
+            
+                    <p>
+                        Transform your entire after-sales ecosystem with a unified platform for Customer Care (CC), call center operations, warranty & repair management, spare parts inventory, reverse logistics, QC, billing, logistics, and ERP integration. Reduce turnaround time by up to <strong>70%</strong>, eliminate operational leakage, and deliver exceptional customer satisfaction at scale.
+                    </p>
+            
+                    <div class="slide-btns">
+                        <a href="#software" class="btn-slide-primary">
+                            ⚡ Explore Service ERP <i class="fas fa-arrow-right"></i>
+                        </a>
+            
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-slide-outline">
+                            💬 Book Free Service Automation Demo <i class="fas fa-headset"></i>
+                        </a>
+                    </div>
+            
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -1079,66 +1299,163 @@
     <!-- ========== SOFTWARE / ERP SECTION ========== -->
     <section class="section-padding" id="software">
         <div class="container">
-            <div class="section-header" data-aos="fade-up" data-aos-delay="50">
-                <span class="section-tag tag-software">💼 Available Software & Web ERP</span>
-                <h2>Powerful ERP Solutions for Every Business</h2>
-                <p>Comprehensive, scalable, and ready-to-demo enterprise resource planning systems tailored to your industry needs.</p>
-            </div>
+           <div class="section-header" data-aos="fade-up" data-aos-delay="50">
+    <span class="section-tag tag-software">🚀 Enterprise ERP, Business Automation & Digital Transformation</span>
+
+    <h2>Empower Leadership. Accelerate Growth. Transform Your Business.</h2>
+
+    <p>
+        From Finance, Sales, HR, Manufacturing, Supply Chain, Procurement, and CRM to complete
+        enterprise-wide automation — our intelligent ERP solutions provide real-time visibility,
+        stronger financial control, higher productivity, and data-driven decision-making for
+        CEOs, CFOs, Managing Directors, Chairmen, HR Leaders, and Business Teams. Scalable,
+        cloud-ready, and built to drive profitability, operational excellence, and sustainable growth.
+    </p>
+</div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
-                    <a data-bs-toggle="modal" data-bs-target="#contactModal" onclick="showDetailsModal('software','manufacturing-erp')" href="#" class="card-item accent-indigo" title="Manufacturing ERP - Click for details">
-                        <span class="card-emoji">🏭</span>
-                        <div class="card-icon-wrap icon-indigo"><i class="fas fa-industry"></i></div>
-                        <h4>Manufacturing ERP</h4>
-                        <p>Complete production planning, BOM management, shop floor control & quality assurance system.</p>
-                        <span class="card-arrow">Learn More <i class="fas fa-chevron-right"></i></span>
-                    </a>
-                </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
+                <a data-bs-toggle="modal"  onclick="showDetailsModal('software','manufacturing-erp')"
+                    href="#" class="card-item accent-indigo" title="Manufacturing ERP - Click for details">
+                    <span class="card-emoji">🏭</span>
+                    <div class="card-icon-wrap icon-indigo">
+                        <i class="fas fa-industry"></i>
+                    </div>
+            
+                    <h4>Smart Manufacturing ERP</h4>
+            
+                    <p>
+                        Digitize and optimize your entire manufacturing lifecycle with real-time production monitoring,
+                        intelligent planning, BOM, inventory control, quality management, machine utilization tracking,
+                        and cost analysis—empowering faster decisions, higher efficiency, and greater profitability.
+                    </p>
+            
+                    <span class="card-arrow">
+                        Explore Features <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <a onclick="showDetailsModal('software','sales-inventory-accounting-erp')" href="javascript:void(0)" class="card-item accent-teal" title="Sales, Inventory & Accounting ERP - Click for details">
+                    <a onclick="showDetailsModal('software','sales-inventory-accounting-erp')" href="javascript:void(0)"
+                        class="card-item accent-teal" title="Sales, Inventory & Accounting ERP - Click for details">
                         <span class="card-emoji">💰</span>
-                        <div class="card-icon-wrap icon-teal"><i class="fas fa-chart-line"></i></div>
-                        <h4>Sales, Inventory & Accounting ERP</h4>
-                        <p>Integrated order-to-cash cycle with real-time inventory tracking, invoicing & financial reporting.</p>
-                        <span class="card-arrow">Learn More <i class="fas fa-chevron-right"></i></span>
+                
+                        <div class="card-icon-wrap icon-teal">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                
+                        <h4>Sales, Inventory & Finance ERP</h4>
+                
+                        <p>
+                            Unify sales operations, inventory management, procurement, invoicing, receivables,
+                            payables, and financial reporting in one intelligent platform—enabling real-time visibility,
+                            stronger cash flow control, higher profitability, and faster business growth.
+                        </p>
+                
+                        <span class="card-arrow">
+                            Explore Features <i class="fas fa-chevron-right"></i>
+                        </span>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                    <a onclick="showDetailsModal('software','distributor-management-system')" href="javascript:void(0)"  class="card-item accent-amber" title="Distributor Management System - Click for details">
-                        <span class="card-emoji">🚚</span>
-                        <div class="card-icon-wrap icon-amber"><i class="fas fa-truck-fast"></i></div>
-                        <h4>Distributor Management System</h4>
-                        <p>Multi-tier distribution network management with route optimization & dealer portal.</p>
-                        <span class="card-arrow">Learn More <i class="fas fa-chevron-right"></i></span>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <a onclick="showDetailsModal('software','ideal-hr-solutions')" href="javascript:void(0)" class="card-item accent-green" title="Ideal HR Solutions - Click for details">
-                        <span class="card-emoji">👥</span>
-                        <div class="card-icon-wrap icon-green"><i class="fas fa-users-gear"></i></div>
-                        <h4>Ideal HR Solutions</h4>
-                        <p>Complete HRMS with payroll, attendance, recruitment, performance & employee self-service portal.</p>
-                        <span class="card-arrow">Learn More <i class="fas fa-chevron-right"></i></span>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                    <a onclick="showDetailsModal('software','customer-service-warranty-management')" href="javascript:void(0)" class="card-item accent-pink" title="Customer Service & Warranty Management ERP - Click for details">
-                        <span class="card-emoji">🛡️</span>
-                        <div class="card-icon-wrap icon-pink"><i class="fas fa-headset"></i></div>
-                        <h4>Customer Service & Warranty Management ERP</h4>
-                        <p>Ticketing system, warranty tracking, SLA management & customer satisfaction analytics.</p>
-                        <span class="card-arrow">Learn More <i class="fas fa-chevron-right"></i></span>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <a onclick="showDetailsModal('software','reporting-portal')" href="javascript:void(0)" class="card-item accent-purple" title="Reporting Portal - Click for details">
-                        <span class="card-emoji">📊</span>
-                        <div class="card-icon-wrap icon-purple"><i class="fas fa-chart-pie"></i></div>
-                        <h4>Reporting Portal</h4>
-                        <p>Self-service BI portal with drag-and-drop reports, scheduled exports & executive dashboards.</p>
-                        <span class="card-arrow">Learn More <i class="fas fa-chevron-right"></i></span>
-                    </a>
-                </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                <a onclick="showDetailsModal('software','distributor-management-system')" href="javascript:void(0)"
+                    class="card-item accent-amber" title="Distributor Management System - Click for details">
+                    <span class="card-emoji">🚚</span>
+                    <div class="card-icon-wrap icon-amber">
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+            
+                    <h4>Distributor Management System</h4>
+            
+                    <p>
+                        Manage distributors, dealers, retailers, primary/secondary/tertiary sales,
+                        credit control, inventory aging, route optimization, and SAP integration
+                        from a single intelligent platform.
+                    </p>
+            
+                    <span class="card-arrow">
+                        Explore Solution <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <a onclick="showDetailsModal('software','ideal-hr-solutions')" href="javascript:void(0)"
+                    class="card-item accent-green" title="Ideal HR Solutions - Click for details">
+                    <span class="card-emoji">👥</span>
+            
+                    <div class="card-icon-wrap icon-green">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+            
+                    <h4>Enterprise HR & Payroll Management System</h4>
+            
+                    <p>
+                        Transform your workforce management with a fully integrated HRMS covering recruitment portal,
+                        onboarding, payroll, attendance, leave, overtime, KPI & performance appraisal, training,
+                        employee self-service, HR analytics, tax (TDS), PF, gratuity, compliance management,
+                        survey & assessment tools, disciplinary tracking, and full ERP integration—enabling
+                        smarter HR decisions, higher employee productivity, and complete organizational control.
+                    </p>
+            
+                    <span class="card-arrow">
+                        Explore HR Suite <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                <a onclick="showDetailsModal('software','customer-service-warranty-management')" href="javascript:void(0)"
+                    class="card-item accent-pink" title="After Sales & Service Management ERP - Click for details">
+            
+                    <span class="card-emoji">🛠️</span>
+            
+                    <div class="card-icon-wrap icon-pink">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                    </div>
+            
+                    <h4>After Sales & Service Management ERP</h4>
+            
+                    <p>
+                        A complete enterprise platform for mobile, electronics, appliance, and consumer service industries—
+                        featuring centralized Customer Care (CC) management, call center operations, ticketing system,
+                        warranty & AMC tracking, repair lifecycle management, spare parts & handset inventory control,
+                        reverse logistics, disassembly tracking, faulty & scrap management, warehouse operations,
+                        QC & product quality management, bill & service invoicing, petty cash handling, delivery &
+                        courier management, SMS/notification integration, forecasting, procurement & sourcing (SCM),
+                        ODM & product lifecycle management, and seamless integration with ERP, CRM, and external tools—
+                        enabling end-to-end visibility, faster service resolution, and higher customer satisfaction.
+                    </p>
+            
+                    <span class="card-arrow">
+                        Explore Service Platform <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <a onclick="showDetailsModal('software','reporting-portal')" href="javascript:void(0)"
+                    class="card-item accent-purple" title="Business Intelligence & Reporting Portal - Click for details">
+            
+                    <span class="card-emoji">📊</span>
+            
+                    <div class="card-icon-wrap icon-purple">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+            
+                    <h4>Business Intelligence & Reporting Portal</h4>
+            
+                    <p>
+                        Empower decision-makers with real-time executive dashboards, KPI tracking, financial & operational
+                        analytics,
+                        interactive drill-down reports, and automated scheduled insights across all business units.
+                        Seamlessly integrate with cross-platform databases and ERP systems via REST APIs or direct DB-to-DB
+                        connectivity,
+                        enabling unified enterprise data visibility across multiple systems and companies—driving faster, smarter
+                        strategic decisions at scale.
+                    </p>
+            
+                    <span class="card-arrow">
+                        Explore Insights <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </div>
             </div>
         </div>
     </section>
@@ -1479,15 +1796,42 @@
 
 
 </div>
-<!-- ========== DYNAMIC DETAILS MODAL ========== -->
-<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+<!-- ===========================
+     FULL SCREEN REPORT MODAL
+=========================== -->
+<div class="modal fade report-modal" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel"
+    aria-hidden="true">
+
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
         <div class="modal-content">
+
+            <!-- HEADER -->
             <div class="modal-header">
-                <h5 class="modal-title" id="detailsModalLabel"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div>
+                    <h4 class="modal-title fw-bold mb-0" id="detailsModalLabel">
+                        Details Report
+                    </h4>
+
+                    <small class="text-light opacity-75">
+                        View complete information
+                    </small>
+                </div>
+
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                </button>
+
             </div>
-            <div class="modal-body" id="detailsModalBody"></div>
+
+            <!-- BODY -->
+            <div class="modal-body">
+
+                <div class="report-container">
+                    <div id="detailsModalBody"></div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </div>
@@ -1509,14 +1853,20 @@
     const softwareData = [
         {
             id: "manufacturing-erp",
-            title: "🏭 Manufacturing ERP",
+              "title": "🏭 Smart Manufacturing ERP (Industry 4.0 Ready)",
             overview: {
-                description: "Complete production lifecycle management designed for discrete & process manufacturing. Real‑time shop floor control, BOM management, and quality assurance integrated into one intelligent platform.",
+                 "description": "An advanced end-to-end Manufacturing Execution & ERP platform designed for discrete, process, and hybrid manufacturing industries. It delivers real-time production visibility, intelligent planning, shop floor automation, and integrated quality control—unifying the entire manufacturing lifecycle from raw material procurement to finished goods delivery on a single smart platform.",
                 whyChoose: [
-                    "End-to-end visibility from raw material to finished goods",
-                    "AI‑driven demand forecasting reduces stock‑outs by 35%",
-                    "Seamless integration with IoT devices and PLCs",
-                    "Compliant with ISO 9001 & industry 4.0 standards"
+                    "Full end-to-end production visibility from procurement to finished goods with real-time tracking",
+                    "AI-powered demand forecasting and production planning to reduce stock-outs and excess inventory by up to 35%",
+                    "Smart BOM (Bill of Materials) management with version control and engineering change tracking",
+                    "Seamless integration with IoT devices, machines, PLCs, and smart factory sensors for real-time shop floor monitoring",
+                    "Built-in quality assurance (QA/QC) workflows with defect tracking, inspection plans, and compliance control",
+                    "Advanced production scheduling, capacity planning, and machine utilization optimization",
+                    "Barcode / RFID-based inventory tracking for accurate material and WIP management",
+                    "ISO 9001, ISO compliance readiness and Industry 4.0 aligned architecture",
+                    "Integrated costing, wastage control, and profitability analysis per production batch",
+                    "Multi-plant, multi-warehouse support with centralized enterprise control"
                 ],
                 technology: [".NET Core, SQL Server, Azure IoT Hub, React", "REST APIs for ERP integration"],
                 supportedBusiness: ["Automotive", "Pharma", "Electronics", "FMCG", "Textile"],
