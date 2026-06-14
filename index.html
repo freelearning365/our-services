@@ -1899,66 +1899,262 @@
                 implementationTimeline: "12–16 weeks (structured phased rollout including analysis, customization, integration, training & go-live support)",
                 contact: { email: "freelearning365.com@gmail.com", phone: "+880 1711-065316", location: "Dhanmondi, Dhaka" }
             },
-            modules: [
-                {
-                    name: "Production Planning & Scheduling",
-                    description: "Advanced planning with finite capacity scheduling and what‑if analysis.",
-                    subModules: [
-                        { task: "Master Production Schedule (MPS)", benefit: "Align production with sales forecasts" },
-                        { task: "Material Requirement Planning (MRP)", benefit: "Automated purchase suggestions reduce stockouts" },
-                        { task: "Capacity Planning Dashboard", benefit: "Visual bottleneck identification" }
-                    ]
-                },
-                {
-                    name: "Inventory & Warehouse Management",
-                    description: "Multi‑location inventory with barcode/RFID and real‑time stock updates.",
-                    subModules: [
-                        { task: "Goods Receipt & Issue", benefit: "Paperless, error‑free transactions" },
-                        { task: "Cycle Counting & Reconciliation", benefit: "Inventory accuracy >99%" },
-                        { task: "FIFO/FEFO Batch Tracking", benefit: "Minimize expiry losses" }
-                    ]
-                },
-                {
-                    name: "Quality Control & Assurance",
-                    description: "Integrated QC checkpoints with SPC and non‑conformance tracking.",
-                    subModules: [
-                        { task: "Incoming Inspection", benefit: "Reduce supplier defects by 40%" },
-                        { task: "In‑Process Inspection", benefit: "Real‑time defect alerts" },
-                        { task: "CAPA Management", benefit: "Closed‑loop corrective actions" }
-                    ]
-                },
-                {
-                    name: "Shop Floor Execution",
-                    description: "Digital work instructions, machine integration, and labor tracking.",
-                    subModules: [
-                        { task: "Operator Dashboard", benefit: "Live OEE & job status" },
-                        { task: "Machine Downtime Tracking", benefit: "Identify top downtime reasons" }
-                    ]
-                }
-            ],
+            modules :   
+ 
+[
+    {
+      "name": "System Administration",
+      "description": "Centralized configuration hub enabling secure access control, master data governance, and enterprise-wide system standardization.",
+      "subModules": [
+        { "task": "User Management & User Info", "benefit": "Ensures secure user access with full accountability and audit trails" },
+        { "task": "Menu Permission & Setup", "benefit": "Granular authorization improves system security and governance" },
+        { "task": "Master Setup Configuration", "benefit": "Centralized control for all core business data" },
+        { "task": "HR Departments & Functions Setup", "benefit": "Improves organizational structure and reporting alignment" },
+        { "task": "Skill & Resource Setup", "benefit": "Optimizes workforce planning and utilization" },
+        { "task": "Supplier Management", "benefit": "Enhances supplier collaboration and procurement efficiency" },
+        { "task": "Bank & Account Setup", "benefit": "Streamlines financial operations and reconciliation" },
+        { "task": "Chart of Accounts (COA)", "benefit": "Standardized financial reporting and compliance" },
+        { "task": "Product & Material Master Data", "benefit": "Single source of truth for enterprise-wide operations" },
+        { "task": "Material Category & Subcategory", "benefit": "Improves inventory classification and reporting accuracy" },
+        { "task": "Currency & Localization Setup", "benefit": "Supports global transactions and financial transparency" },
+        { "task": "Production Line & SRO Setup", "benefit": "Standardizes manufacturing processes across facilities" }
+      ]
+    },
+    {
+      "name": "Inventory & Warehouse Management",
+      "description": "Comprehensive warehouse management system ensuring real-time stock visibility, traceability, and optimized inventory operations.",
+      "subModules": [
+        { "task": "FOC Claim & Settlement Management", "benefit": "Improves supplier accountability and financial recovery" },
+        { "task": "Stock Adjustment & Reconciliation", "benefit": "Maintains high inventory accuracy and audit compliance" },
+        { "task": "IQC (Incoming Quality Control)", "benefit": "Prevents defective materials entering inventory" },
+        { "task": "Material Receiving & Approval", "benefit": "Ensures accurate and controlled goods intake" },
+        { "task": "Goods Receipt Note (GRN) Management", "benefit": "Provides full traceability of inbound materials" },
+        { "task": "Inventory Transfer (M2M & Store-to-Store)", "benefit": "Optimizes stock distribution across locations" },
+        { "task": "Material Dispatch & Gate Pass", "benefit": "Improves outbound logistics control and security" },
+        { "task": "Material Requisition & Issue", "benefit": "Controls material consumption and reduces wastage" },
+        { "task": "SKU & Raw Material Inventory Monitoring", "benefit": "Real-time stock visibility improves planning" },
+        { "task": "Finished Goods Dispatch", "benefit": "Enhances order fulfillment and customer satisfaction" },
+        { "task": "Production Receipt Management", "benefit": "Immediate stock update from production output" },
+        { "task": "Recovery & Faulty Material Handling", "benefit": "Reduces losses through recovery and reuse optimization" }
+      ]
+    },
+    {
+      "name": "Supply Chain Management (SCM)",
+      "description": "End-to-end supply chain platform enabling efficient sourcing, import operations, and cost optimization.",
+      "subModules": [
+        { "task": "FOC Management & Approval", "benefit": "Strengthens supplier accountability and claim processing" },
+        { "task": "Purchase Order (PO) Management", "benefit": "Streamlines procurement lifecycle and vendor coordination" },
+        { "task": "Proforma Invoice (PI) Processing", "benefit": "Accelerates import approvals and documentation" },
+        { "task": "Letter of Credit (LC) Management", "benefit": "Reduces international trade risks and improves compliance" },
+        { "task": "Tariff & Duty Setup", "benefit": "Ensures accurate landed cost calculation" },
+        { "task": "Shipment & Logistics Tracking", "benefit": "Provides real-time visibility of inbound shipments" },
+        { "task": "Pay Order & Bill Processing", "benefit": "Improves financial control and supplier trust" },
+        { "task": "Forwarder Management", "benefit": "Optimizes logistics coordination and delivery timelines" },
+        { "task": "Import Costing & Approval", "benefit": "Accurate cost allocation ensures profitability control" }
+      ]
+    },
+    {
+      "name": "Procurement Management",
+      "description": "Automated procurement ecosystem ensuring budget control, approval governance, and strategic sourcing efficiency.",
+      "subModules": [
+        { "task": "Purchase Requisition (PR) Management", "benefit": "Improves demand planning and material availability" },
+        { "task": "Material, Electrical & Asset PR", "benefit": "Ensures controlled procurement across categories" },
+        { "task": "PR Approval Workflow", "benefit": "Strengthens governance and approval transparency" },
+        { "task": "Budget & Asset Control Approval", "benefit": "Prevents overspending and ensures compliance" },
+        { "task": "Procurement Head Approval", "benefit": "Centralized control over procurement decisions" },
+        { "task": "Procurement Engineer Assignment", "benefit": "Faster sourcing and supplier engagement" },
+        { "task": "Local Purchase Order (LPO)", "benefit": "Efficient supplier communication and execution" },
+        { "task": "Terms & Conditions Management", "benefit": "Reduces legal risks and standardizes agreements" }
+      ]
+    },
+    {
+      "name": "Production Management (Core Manufacturing)",
+      "description": "Integrated production execution system ensuring efficient planning, real-time monitoring, and optimized manufacturing output.",
+      "subModules": [
+        { "task": "Bill of Materials (BOM) Management", "benefit": "Ensures accurate and consistent production planning" },
+        { "task": "Production Planning & Scheduling", "benefit": "Optimizes capacity utilization and delivery timelines" },
+        { "task": "Batch Planning (SMT, SKD, PCBA)", "benefit": "Improves traceability and production efficiency" },
+        { "task": "Daily Production Execution", "benefit": "Real-time visibility of shop floor operations" },
+        { "task": "Assembly, Packaging & Accessories Production", "benefit": "Streamlines multi-line manufacturing operations" },
+        { "task": "Charger & Specialized Manufacturing", "benefit": "Optimizes complex production processes" },
+        { "task": "Production Material Requisition & Return", "benefit": "Ensures uninterrupted material supply" },
+        { "task": "Work-in-Process (WIP) Monitoring", "benefit": "Identifies bottlenecks and improves cycle time" },
+        { "task": "PCBA Manufacturing & Rework", "benefit": "Enhances product quality and reduces defects" },
+        { "task": "Production Process Configuration", "benefit": "Standardizes processes across production lines" }
+      ]
+    },
+    {
+      "name": "Quality Management (Integrated)",
+      "description": "Comprehensive quality assurance system ensuring regulatory compliance, defect prevention, and continuous improvement.",
+      "subModules": [
+        { "task": "Incoming Quality Control (IQC)", "benefit": "Prevents defective input materials" },
+        { "task": "Material & Electrical Inspection", "benefit": "Improves supplier quality performance" },
+        { "task": "GRN Quality Control", "benefit": "Ensures only approved stock enters inventory" },
+        { "task": "In-Process Quality Control (LQC)", "benefit": "Detects defects early in production" },
+        { "task": "Final Quality Control (FQC)", "benefit": "Ensures customer-ready products meet standards" },
+        { "task": "PCBA Quality Validation", "benefit": "Reduces field failures and warranty costs" },
+        { "task": "Fault Analysis & Recovery", "benefit": "Improves yield and minimizes losses" }
+      ]
+    },
+    {
+      "name": "Manufacturing Intelligence & Analytics",
+      "description": "Advanced reporting and analytics layer providing real-time insights for operational excellence and strategic decision-making.",
+      "subModules": [
+        { "task": "Production Performance Dashboard", "benefit": "Tracks efficiency and throughput in real-time" },
+        { "task": "Inventory Analytics Dashboard", "benefit": "Optimizes stock levels and working capital" },
+        { "task": "Procurement & SCM Analytics", "benefit": "Improves supplier performance and cost control" },
+        { "task": "Quality KPI Monitoring", "benefit": "Ensures continuous quality improvement" },
+        { "task": "Executive Management Dashboard", "benefit": "Enterprise-wide visibility for leadership decisions" },
+        { "task": "Audit & Compliance Reporting", "benefit": "Ensures regulatory compliance and transparency" }
+      ]
+    },
+    {
+      "name": "Advanced Manufacturing Capabilities",
+      "description": "Industry-standard manufacturing capabilities aligned with SAP, Oracle, and Microsoft Dynamics for scalable and future-ready operations.",
+      "subModules": [
+        { "task": "Material Requirement Planning (MRP)", "benefit": "Automates procurement planning and prevents stockouts" },
+        { "task": "Capacity Requirement Planning (CRP)", "benefit": "Optimizes machine and labor utilization" },
+        { "task": "Shop Floor Control (SFC)", "benefit": "Real-time production tracking and performance management" },
+        { "task": "Batch & Serial Number Tracking", "benefit": "Full traceability for compliance and recalls" },
+        { "task": "Work-in-Process (WIP) Management", "benefit": "Improves production visibility and efficiency" },
+        { "task": "Production Analytics & OEE", "benefit": "Maximizes equipment effectiveness and reduces downtime" },
+        { "task": "Maintenance Management (PM)", "benefit": "Reduces machine downtime and extends asset life" },
+        { "task": "Dispatch & Logistics Management", "benefit": "Ensures efficient delivery and distribution operations" }
+      ]
+    }
+  ],
             conclusion: "🚀 Our Manufacturing ERP is your partner for Industry 4.0 transformation. Schedule a demo to see it in action!"
         },
         {
             id: "sales-inventory-accounting-erp",
-            title: "💰 Sales, Inventory & Accounting ERP",
+            title: "💰 Enterprise Sales, Inventory, Commercial & Accounting ERP",
             overview: {
-                description: "Unified order‑to‑cash platform that connects sales, warehouse, and finance in real time. Automate invoicing, track inventory across multiple channels, and gain financial clarity.",
+                description: "A comprehensive multi-company SaaS ERP platform that seamlessly integrates Sales, CRM, Inventory, Commercial, Distribution, Finance, and Business Intelligence into a single ecosystem. Automate end-to-end business operations from Lead-to-Cash, Procure-to-Pay, Inventory-to-Delivery, and Record-to-Report while gaining real-time visibility, operational efficiency, and strategic business intelligence.",
                 whyChoose: [
-                    "Single source of truth for sales, stock, and ledger",
-                    "Real‑time profitability analysis by product/customer",
-                    "Automated tax compliance (VAT/GST ready)"
+                   "Single source of truth across Sales, Inventory, Commercial, and Finance", "Multi-Company, Multi-Branch, Multi-Warehouse SaaS Architecture", "Supports Serialized & Non-Serialized Inventory Management", "Advanced Dynamic Approval Workflow Engine", "Real-Time Financial, Sales & Inventory Analytics", "Project-Wise Revenue, Cost & Profitability Tracking", "Built-in VAT, Tax & Regulatory Compliance Management", "Power BI Embedded Dashboards & Executive Scorecards", "Open REST API Integration Framework", "Cloud Ready, Mobile Ready & Enterprise Scalable"
                 ],
                 technology: ["ASP.NET Core, Angular, SQL Server", "PowerBI embedded analytics"],
-                supportedBusiness: ["Wholesale", "Retail", "E‑commerce", "Distribution"],
-                roi: "Achieve 30% faster month‑end close and 15% reduction in inventory holding costs.",
-                businessBenefits: ["360° customer view", "Reduce billing errors by 90%", "Multi‑currency & multi‑company support"],
+                supportedBusiness: ["Manufacturing", "Distribution", "Trading", "Wholesale", "Retail Chain", "Electronics", "Pharmaceutical", "FMCG", "E-Commerce", "Import & Commercial Business", "Corporate Enterprises"],
+                roi: "Reduce operational costs by up to 35%, improve inventory accuracy by 95%, accelerate financial closing by 70%, increase sales productivity by 40%, and achieve complete business visibility through real-time analytics.",
+                businessBenefits: ["360° Customer Lifecycle Management", "Automated Order-to-Cash Process", "End-to-End Inventory Visibility", "Real-Time Financial Intelligence", "Improved Cash Flow Management", "Advanced Credit & Collection Control", "Multi-Currency & Multi-Company Support", "Automated Workflow & Approval Management", "Enhanced Compliance & Audit Readiness", "Executive-Level Business Intelligence"],
                 implementationTimeline: "8–10 weeks",
                 contact: { email: "freelearning365.com@gmail.com", phone: "+880 1711-065316" }
             },
             modules: [
-                { name: "Sales Order Management", description: "Quote‑to‑cash workflow with approval hierarchy.", subModules: [{ task: "Quotation & Order Entry", benefit: "Faster quote turnaround" }, { task: "Order Fulfillment Tracking", benefit: "Real‑time delivery updates" }] },
-                { name: "Inventory Control", description: "Multi‑warehouse stock with bin management.", subModules: [{ task: "Stock Transfer & Adjustment", benefit: "Eliminate manual spreadsheets" }, { task: "Reorder Alerts", benefit: "Never run out of fast‑movers" }] },
-                { name: "Accounting & Finance", description: "General ledger, AP/AR, and bank reconciliation.", subModules: [{ task: "Automated Invoicing", benefit: "Reduce DSO by 20%" }, { task: "Financial Reports", benefit: "P&L, Balance Sheet in one click" }] }
+                { name: "Inventory & Warehousing", description: "enables real-time stock visibility across multiple warehouses, locations, and bins. Manage serialized and non-serialized inventory, stock transfers, FIFO valuation, batch tracking, reorder planning, and warehouse operations with complete accuracy and control..", 
+					subModules: [ 
+                                { task: "Multi-Source Inventory Receiving", benefit: "Receive inventory from Production/Factory APIs, manual system entries, flat-file uploads, supplier deliveries, and external systems while automatically maintaining accurate FIFO cost valuation for both serialized and non-serialized inventory." }, 
+								{ task: "Inventory Receiving Approval Workflow", benefit: "Configurable multi-level approval hierarchy for inventory receipts ensuring proper authorization, compliance control, and audit trail management." }, 
+								{ task: "Stock Transfer Requisition & Approval", benefit: "Digitize inter-warehouse and inter-location transfer requests with dynamic approval routing to reduce transfer delays and improve inventory utilization." }, 
+								{ task: "Serialized & Non-Serialized Sales Delivery Management", benefit: "Manage customer deliveries with item-level tracking, serial verification, delivery approvals, and complete shipment traceability." }, 
+								{ task: "Sales Return & Reverse Logistics Management", benefit: "Process customer returns efficiently with approval-driven workflows, inventory reclassification, quality inspection, and financial impact tracking." }, 
+								{ task: "Inventory Ledger & Stock Movement Tracking", benefit: "Maintain a complete audit trail of every inventory transaction including receipts, issues, transfers, returns, adjustments, and stock valuation movements." }, 
+								{ task: "FIFO Costing & Inventory Valuation", benefit: "Automated FIFO-based inventory costing provides accurate stock valuation, gross profit analysis, and financial reporting." }, 
+								{ task: "Accounts Payable Integration", benefit: "Seamlessly integrate inventory receipts with Accounts Payable processes for automated supplier liability creation, invoice matching, and payment reconciliation." }, 
+								{ task: "Courier & Distribution Management", benefit: "Manage courier assignments, shipment tracking, delivery status monitoring, and proof-of-delivery workflows from a centralized platform." }, 
+								{ task: "Barcode & QR Code Enabled Operations", benefit: "Accelerate receiving, picking, packing, transfers, and delivery processes through barcode and QR code scanning while minimizing human errors." }, 
+								{ task: "Dispatch & Delivery Challan Management", benefit: "Generate and manage Dispatch Challans, Delivery Challans, Gate Passes, Courier Challans, and customer-specific shipping documents automatically." }, 
+								{ task: "Mushak (VAT) & Regulatory Compliance Reporting", benefit: "Automated generation of Mushak, VAT, tax-compliant inventory reports, and statutory documentation required by regulatory authorities." }, 
+								{ task: "Warehouse Bin & Location Management", benefit: "Optimize warehouse space utilization through structured bin, rack, zone, and location-based inventory management." }, 
+								{ task: "Inventory Reconciliation & Adjustment", benefit: "Perform cycle counts, physical stock verification, variance analysis, and approval-based stock adjustments." }, 
+								{ task: "Advanced Inventory Analytics & Dashboards", benefit: "Gain actionable insights into stock aging, slow-moving inventory, turnover ratios, demand forecasting, fulfillment performance, and warehouse efficiency." } ] },
+				{  name: "CRM (Customer Relationship Management)", description: "A comprehensive Customer Relationship Management platform designed to streamline lead acquisition, customer engagement, sales pipeline management, quotation processing, project onboarding, and field force automation. Empower sales teams with real-time customer insights, activity tracking, approval-driven workflows, and data-driven decision-making to accelerate revenue growth and improve customer retention.", 
+					subModules: [ { task: "Company-wise Customer Management", benefit: "Create and manage customers across multiple companies, business units, and divisions with complete profile, contact, credit, and transaction history." }, 
+					{ task: "Lead Generation & Opportunity Management", benefit: "Capture leads from multiple channels including website, referrals, campaigns, exhibitions, and direct sales activities while tracking their progression through the sales funnel." }, 
+					{ task: "Lead Status & Pipeline Tracking", benefit: "Monitor lead stages from Prospect to Qualified, Negotiation, Won, or Lost with real-time pipeline visibility and conversion analytics." }, 
+					{ task: "Quotation & Proposal Management", benefit: "Generate professional quotations, proposals, and pricing offers with approval workflows, revision tracking, and automated customer communication." }, 
+					{ task: "Customer Visit Management", benefit: "Schedule, record, and monitor customer meetings, field visits, presentations, and follow-up activities to strengthen customer relationships." }, 
+					{ task: "Sales Representative Activity Tracking", benefit: "Track daily sales activities including calls, meetings, visits, tasks, follow-ups, and performance KPIs to maximize team productivity." }, 
+					{ task: "Task, Follow-Up & Reminder Management", benefit: "Automate follow-up schedules, reminders, notifications, and pending action tracking to ensure no sales opportunity is missed." }, 
+					{ task: "Project Creation with PO Attachment", benefit: "Convert approved quotations into projects by attaching customer Purchase Orders (POs), enabling seamless transition from sales to project execution." }, 
+					{ task: "Customer Communication History", benefit: "Maintain a centralized repository of emails, calls, meetings, discussions, and documents for complete customer engagement visibility." }, 
+					{ task: "Sales Forecasting & Opportunity Analysis", benefit: "Predict future revenue, monitor sales targets, identify high-value opportunities, and improve strategic decision-making." }, 
+					{ task: "Document & Attachment Management", benefit: "Store and manage customer contracts, agreements, proposals, POs, technical documents, and correspondence in a secure centralized repository." }, 
+					{ task: "Customer Dashboard & 360° View", benefit: "Provide a complete view of customer activities, quotations, projects, orders, payments, communications, and relationship status from a single screen." }, 
+					{ task: "Management Reports & BI Analytics", benefit: "Deliver real-time CRM dashboards, sales pipeline reports, conversion analysis, sales team performance metrics, and customer profitability insights." } ] },
+				{ name: "Sales Management", description: "A comprehensive Sales Management platform that streamlines the entire Order-to-Cash lifecycle, from sales requisition and pricing management to invoicing, collections, customer credit control, and financial integration. Designed to support serialized and non-serialized inventory, multi-company operations, dynamic approval workflows, VAT/Tax compliance, project-wise sales tracking, and advanced business intelligence. Empower organizations to maximize revenue, improve cash flow, and gain real-time visibility into sales performance.", 
+					subModules: [ { task: "Sales Requisition Management", benefit: "Create and manage sales requisitions for both serialized and non-serialized inventory with complete stock validation and availability control." }, 
+					{ task: "Dynamic Pricing & Discount Management", benefit: "Support customer-specific, dealer-specific, territory-based, promotional, contract, and project-based pricing structures with automated discount controls." }, 
+					{ task: "VAT, Tax & Regulatory Compliance Management", benefit: "Automate VAT, Tax, SD, AIT, and regulatory calculations while ensuring compliance with local and international taxation requirements." }, 
+					{ task: "Project-wise Sales Tracking", benefit: "Track sales, revenue, profitability, and customer transactions against specific projects, contracts, or business initiatives." }, 
+					{ task: "Sales Requisition Approval Workflow", benefit: "Configure dynamic multi-level approval hierarchies based on company, department, customer category, amount, product type, or business rules." }, 
+					{ task: "Invoice Creation & Approval Management", benefit: "Generate customer invoices automatically from approved sales orders with configurable approval workflows and audit tracking." }, 
+					{ task: "Company-wise Workflow Configuration", benefit: "Define independent sales approval policies, authorization matrices, and operational controls for each company within a multi-company environment." }, 
+					{ task: "Customer Ledger Integration", benefit: "Automatically update customer ledgers, transaction history, balances, and financial exposure after every sales transaction." }, 
+					{ task: "Accounts Receivable Integration", benefit: "Seamlessly integrate sales invoices with Accounts Receivable for customer aging, collection management, and financial reporting." }, 
+					{ task: "Sales Return & Warehouse Return Management", benefit: "Manage product returns, replacement processing, return approvals, stock re-entry, and financial adjustments with complete traceability." }, 
+					{ task: "Sales Target & Achievement Management", benefit: "Monitor monthly, quarterly, and yearly sales targets against actual achievements with real-time performance analytics, variance tracking, and growth insights.." }, 
+					{ task: "Customer & Dealer Credit Management", benefit: "Monitor credit limits, outstanding balances, overdue invoices, payment history, and customer risk exposure in real time." }, 
+					{ task: "Collection & Payment Management", benefit: "Record customer payments, advance collections, adjustments, and settlement activities with configurable approval controls." }, 
+					{ task: "Payment Approval Workflow", benefit: "Enforce authorization policies for payment receipts, write-offs, adjustments, and exceptional collection transactions." }, 
+					{ task: "Back Margin & Trade Incentive Management", benefit: "Manage dealer incentives, back margins, rebates, promotional schemes, target-based commissions, and channel partner benefits." }, 
+					{ task: "Price Adjustment & Commercial Settlement Management", benefit: "Handle post-sale price adjustments, credit notes, debit notes, rebates, and commercial settlements with full auditability." }, 
+					{ task: "Sales Profitability & Margin Analysis", benefit: "Analyze profitability by customer, dealer, territory, project, product, sales representative, and business unit." }, 
+					{ task: "Advanced Sales Analytics & BI Reporting", benefit: "Deliver real-time dashboards, sales trends, revenue forecasts, customer insights, product performance analysis, and executive KPI monitoring." }, 
+					{ task: "Automated Email Dashboards & Alerts", benefit: "Automatically distribute daily, weekly, and monthly sales reports, collection summaries, outstanding alerts, and executive dashboards via email." }, 
+					{ task: "Sales Performance Management", benefit: "Track sales targets, achievements, growth trends, conversion rates, and sales team productivity across the organization." } ] },
+                { name: "Reporting & BI", description: "A powerful enterprise analytics and business intelligence platform that transforms operational data into actionable insights. Deliver real-time dashboards, KPI monitoring, predictive analytics, automated reporting, and executive scorecards across Sales, Inventory, Finance, CRM, Commercial, HR, and Operations. Empower management with data-driven decision-making through interactive visualizations, advanced analytics, and automated report distribution.", 
+					subModules: [ { task: "Executive Dashboard & KPI Monitoring", benefit: "Provide real-time visibility into business performance through executive scorecards, KPIs, alerts, and management dashboards." }, 
+                                { task: "Sales Analytics & Revenue Intelligence", benefit: "Analyze sales performance, revenue growth, customer profitability, product trends, target achievement, and sales team effectiveness." }, 
+                                { task: "Inventory & Supply Chain Analytics", benefit: "Monitor stock levels, inventory turnover, stock aging, warehouse efficiency, replenishment trends, and inventory valuation." }, 
+                                { task: "Financial Reporting & Profitability Analysis", benefit: "Generate real-time Profit & Loss, Balance Sheet, Cash Flow, Budget Variance, and profitability reports across business units." }, 
+                                { task: "Customer & CRM Intelligence", benefit: "Measure lead conversion rates, customer acquisition costs, retention metrics, sales pipeline health, and customer lifetime value." }, 
+                                { task: "Commercial & Distribution Analytics", benefit: "Track import costs, LC performance, distribution efficiency, channel profitability, and logistics performance indicators." }, 
+                                { task: "Target vs Achievement Analytics", benefit: "Monitor monthly, quarterly, and annual targets against actual performance across departments, teams, territories, and business units." }, 
+                                { task: "Forecasting & Predictive Analytics", benefit: "Predict future sales, inventory demand, cash flow, and business growth trends using advanced analytical models." }, 
+                                { task: "Interactive Dashboard Designer", benefit: "Create customized dashboards with drill-down capabilities, filters, charts, pivot analysis, and real-time visualizations." }, 
+                                { task: "Automated Email Reports & Alerts", benefit: "Automatically deliver scheduled reports, KPI summaries, exception alerts, and executive dashboards via email." }, 
+                                { task: "Multi-Company Consolidated Reporting", benefit: "Generate consolidated financial, operational, and management reports across multiple companies and business entities." }, 
+                                { task: "Power BI Integration", benefit: "Leverage advanced Microsoft Power BI visualizations, AI-driven insights, and enterprise-grade analytics capabilities." }, 
+                                { task: "Custom Report Builder", benefit: "Allow business users to create ad-hoc reports, analytical views, and custom queries without technical assistance." }, 
+                                { task: "Role-Based MIS Reporting", benefit: "Provide department-specific management reports tailored for executives, finance teams, sales managers, warehouse managers, and operational leaders." }, 
+                                { task: "Audit, Compliance & Regulatory Reporting", benefit: "Generate compliance reports, audit trails, VAT reports, Mushak reports, tax summaries, and statutory reporting requirements." } ] },
+				{ name: "Master Data Management (MDM) & System Administration", description: "A centralized enterprise-grade Master Data Management (MDM) platform designed for multi-company SaaS environments. Establish a single source of truth for all business entities, organizational structures, products, customers, suppliers, pricing, inventory, sales territories, and operational configurations. Ensure data consistency, governance, security, and seamless integration across Sales, CRM, Inventory, Commercial, Finance, HR, and Business Intelligence modules.", 
+					subModules: [ { task: "Multi-Company Management", benefit: "Configure and manage multiple companies, subsidiaries, branches, and business units from a single SaaS platform." }, 
+                    { task: "Organization Structure Management", benefit: "Define corporate hierarchies, departments, regions, zones, territories, and operational structures." }, 
+                    { task: "Product & Item Master Management", benefit: "Centralized management of products, SKUs, categories, brands, models, variants, specifications, and inventory classifications." }, 
+                    { task: "Model & Variant Management", benefit: "Maintain product models, configurations, colors, specifications, and market-specific variants." }, 
+                    { task: "Color & Attribute Management", benefit: "Configure colors, sizes, attributes, features, and customizable product characteristics." }, 
+                    { task: "Customer Master Management", benefit: "Manage customer profiles, credit limits, business classifications, contacts, locations, and commercial agreements." }, 
+                    { task: "Dealer & Distributor Management", benefit: "Maintain dealer networks, distribution channels, territory assignments, incentive structures, and performance tracking." }, 
+                    { task: "Supplier & Vendor Management", benefit: "Centralized supplier onboarding, categorization, contract management, and procurement integration." }, 
+                    { task: "Sales Hierarchy Management", benefit: "Configure NSM, RSM, ZSM, ASM, TSM, Territory Officers, Sales Representatives, and reporting structures." }, 
+                    { task: "Territory & Geographic Mapping", benefit: "Define sales territories, regions, zones, districts, and market coverage for efficient sales operations." }, 
+                    { task: "Warehouse & Location Management", benefit: "Manage warehouses, depots, distribution centers, bins, racks, zones, and storage locations." }, 
+                    { task: "Inventory Type Configuration", benefit: "Configure serialized, non-serialized, batch-controlled, lot-controlled, consignment, and project-based inventory structures." }, 
+                    { task: "Pricing & Commercial Rules Management", benefit: "Manage customer-specific pricing, dealer pricing, promotional pricing, project pricing, discount policies, and margin structures." }, 
+                    { task: "Tax, VAT & Regulatory Configuration", benefit: "Centralize VAT, Tax, SD, Mushak, and regulatory compliance rules across all companies." }, 
+                    { task: "Approval Workflow Configuration", benefit: "Configure dynamic approval hierarchies by company, department, transaction type, amount, and business rules." }, 
+                    { task: "User, Role & Permission Management", benefit: "Implement enterprise-grade role-based access control (RBAC), segregation of duties, and security governance." }, 
+                    { task: "Document Numbering & Business Rules Engine", benefit: "Define automated numbering schemes, transaction rules, validations, and business process controls." }, 
+                    { task: "Email, SMS & Notification Configuration", benefit: "Manage automated communications, alerts, approval notifications, and workflow messaging." }, 
+                    { task: "API & Third-Party Integration Management", benefit: "Centralize integrations with ERP, Finance, Banking, Courier, Production, CRM, HRMS, and external business applications." }, 
+                    { task: "Audit Trail & Data Governance", benefit: "Maintain complete audit history, change tracking, approval logs, and regulatory compliance monitoring." } ] },
+                { name: "Accounting & Finance", description: "A comprehensive Financial Management platform designed to automate, control, and optimize enterprise-wide financial operations. From General Ledger, Accounts Payable, Accounts Receivable, Banking, Budgeting, Fixed Assets, and Cash Flow Management to real-time financial analytics, regulatory compliance, and multi-company consolidation, the system delivers complete financial visibility and governance. Built for modern SaaS enterprises, it ensures accurate financial reporting, stronger internal controls, and data-driven decision making.", 
+				subModules: [ { task: "Chart of Accounts (COA) Management", benefit: "Create and manage flexible multi-level account structures supporting multi-company financial operations and reporting requirements." }, 
+                { task: "General Ledger Management", benefit: "Maintain a centralized financial ledger with real-time posting from Sales, Inventory, Procurement, Commercial, Payroll, and Banking transactions." }, 
+                { task: "Voucher Management System", benefit: "Manage Payment, Receipt, Journal, Contra, Adjustment, and Opening Balance vouchers with configurable approval workflows." }, 
+                { task: "Accounts Payable (AP) Management", benefit: "Automate supplier liabilities, invoice verification, payment scheduling, aging analysis, and vendor settlement processes." }, 
+                { task: "Accounts Receivable (AR) Management", benefit: "Track customer outstanding balances, collections, aging, credit exposure, and cash realization performance." }, 
+                { task: "Customer & Dealer Ledger Management", benefit: "Maintain complete transaction history, receivable tracking, payment reconciliation, and customer financial analysis." }, 
+                { task: "Supplier Ledger Management", benefit: "Monitor supplier balances, procurement liabilities, payment history, and vendor performance metrics." }, 
+                { task: "Banking & Cash Management", benefit: "Manage multiple bank accounts, cash transactions, fund transfers, cash forecasting, and liquidity monitoring." }, 
+                { task: "Automated Bank Reconciliation", benefit: "Match bank statements with accounting transactions automatically to improve accuracy and reduce reconciliation efforts." }, 
+                { task: "Budget Planning & Control", benefit: "Create annual budgets, departmental budgets, project budgets, and monitor actual versus budget performance." }, 
+                { task: "Cash Flow Forecasting & Treasury Management", benefit: "Predict future cash positions, optimize working capital, and improve financial planning and liquidity management." }, 
+                { task: "Fixed Asset Management", benefit: "Manage asset acquisition, capitalization, depreciation, transfers, disposal, and asset lifecycle tracking." }, 
+                { task: "Project Accounting & Cost Center Management", benefit: "Track project-wise revenue, expenses, profitability, budgets, and financial performance in real time." }, 
+                { task: "VAT, Tax & Regulatory Compliance", benefit: "Automate VAT, Tax, Mushak, withholding tax, and statutory compliance reporting requirements." }, 
+                { task: "Multi-Currency Financial Management", benefit: "Handle foreign currency transactions, exchange rate adjustments, and international financial reporting." }, 
+                { task: "Multi-Company Consolidation", benefit: "Generate consolidated financial statements, inter-company reconciliations, and group-level financial reporting." }, 
+                { task: "Inter-Company Transaction Management", benefit: "Automate inter-company sales, purchases, transfers, settlements, and financial reconciliations." }, 
+                { task: "Financial Approval Workflow Engine", benefit: "Configure dynamic approval hierarchies based on company, department, transaction value, account type, and business rules." }, 
+                { task: "Profitability & Cost Analysis", benefit: "Analyze profitability by company, project, customer, product, region, department, and business unit." }, 
+                { task: "Automated Financial Closing", benefit: "Accelerate month-end and year-end closing activities through automated reconciliations, validations, and reporting processes." }, 
+                { task: "Financial Dashboards & Executive Scorecards", benefit: "Monitor key financial KPIs including revenue, expenses, profit margins, cash flow, collections, and working capital." }, 
+                { task: "Automated Email Financial Reports", benefit: "Distribute daily, weekly, monthly, and executive financial reports automatically to stakeholders and management." }, 
+                { task: "Audit Trail & Compliance Monitoring", benefit: "Maintain complete transaction history, approval logs, document tracking, and regulatory audit readiness." }, 
+                { task: "Advanced MIS & Financial Analytics", benefit: "Generate real-time Balance Sheet, Profit & Loss, Cash Flow, Trial Balance, Fund Flow, Ratio Analysis, and executive management reports." } ] }
             ],
             conclusion: "📊 Transform your financial operations with real‑time insights. Request a demo today!"
         },
